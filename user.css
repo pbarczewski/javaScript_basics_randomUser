@@ -1,0 +1,41 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2em;
+}
+
+h2 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+    
+}
+
+#av-img {
+    margin: 0.1em;
+    border-radius: 5em;
+    text-align: left;
+}
+
+.user-profile {
+    margin: auto;
+    padding: 0.5em;
+    width: 24em;
+    background-color: white;
+    border-radius: 0.4em;
+    color: cadetblue;
+}
+
+#username {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#email {
+    font-size: 15px;
+}
